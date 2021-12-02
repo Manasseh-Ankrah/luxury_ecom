@@ -1,0 +1,68 @@
+.loginform__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  object-fit: contain;
+  background-image: url("../pics/ecom_bg_4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.login__loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  object-fit: contain;
+  background-color: #fddf33;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.login__loaderText {
+  font-size: 15px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.0075em;
+  color: white;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+
+.login_form {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.entryform__btn {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 550px) {
+  .login_form {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .login_form {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+  }
+}

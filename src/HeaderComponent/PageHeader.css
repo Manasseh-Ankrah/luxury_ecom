@@ -1,0 +1,143 @@
+.pageheader {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ecca08;
+}
+
+.pageheader__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 00 20px;
+  margin-top: 18px;
+}
+
+.pageheader__search {
+  display: flex;
+  width: 50%;
+  /* flex: 1; */
+  align-items: center;
+  border-radius: 24px;
+}
+
+.pageheader__searchInput {
+  flex: 1;
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.pageheader__exitIcon {
+  margin-left: 10px;
+  height: 22px !important;
+  color: black !important;
+  font-size: 30px !important;
+}
+
+.pageheader__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: black;
+  color: white;
+  margin-top: 3px;
+}
+
+.pageheader__optionLineOne {
+  font-size: 10px;
+}
+
+.pageheader__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.pageheader__optionBasket {
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-top: 5px;
+  margin-right: 40px;
+}
+
+/* horizontal */
+.pageheader__optionBasket :hover {
+  color: white;
+}
+
+.pageheader__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pageheader__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pageheader__option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 30px;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .pageheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pageheader__search {
+    display: flex;
+    width: 50%;
+    margin-left: 15px;
+    align-items: center;
+    border-radius: 24px;
+  }
+
+  .pageheader__logo {
+    width: 90px;
+    object-fit: contain;
+    margin-right: 5px;
+    margin-left: -10px;
+    margin-top: 18px;
+  }
+  .pageheader__nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: 0;
+  }
+
+  .pageheader__exitIcon {
+    margin-left: -30px;
+    height: 22px !important;
+    color: black !important;
+    font-size: 30px !important;
+  }
+
+  .pageheader__optionBasket {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-top: 5px;
+    margin-right: -29px;
+    margin-left: 20px;
+    justify-content: center;
+  }
+
+  .pageheader__search {
+    display: flex;
+    width: 60%;
+    /* flex: 1; */
+    align-items: center;
+    border-radius: 24px;
+  }
+}

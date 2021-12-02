@@ -1,0 +1,41 @@
+.airpodsHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.airpodsHome__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  /* background-color: #111; */
+}
+
+.airpodsHome__image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.airpodsHome__explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.0075em;
+  color: #222;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .airpodsHome__image {
+    height: 160px;
+  }
+}

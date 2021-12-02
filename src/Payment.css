@@ -1,0 +1,151 @@
+.payment {
+  background-color: white;
+}
+
+.payment__container > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__text {
+  padding: 10px;
+  font-weight: 400;
+}
+
+.payment__totalamt {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.payment__container > h3 a {
+  text-decoration: none;
+}
+
+.payment__section {
+  display: flex;
+  padding: 15px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__section1 {
+  display: flex;
+  padding: 15px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__title {
+  flex: 0.3;
+}
+
+.payment__details {
+  flex: 0.7;
+}
+
+.payment__items {
+  flex: 0.7;
+  /* margin-top: 30px; */
+}
+
+.payment__details {
+  display: flex;
+  flex: 0.7;
+  margin-left: 50px;
+}
+
+form {
+  width: 50%;
+}
+
+.payment__address {
+  display: flex;
+  flex: 0.7;
+  margin-left: 50px;
+}
+
+.payment__address > p {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.payment__priceContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 0px;
+
+  margin-top: 15px;
+}
+
+.payment__btn {
+  font-family: '"Helvetica Neue", Helvetica, sans-serif';
+  /* border-radius: 35px; */
+  width: 200px;
+  cursor: pointer;
+  background-color: #ecca08;
+  padding: 5px 10px;
+  font-size: "16px";
+  color: white;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .payment__priceContainer {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  .payment__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .payment__section1 {
+    display: none;
+  }
+
+  .payment__address {
+    display: flex;
+    flex: 1;
+    margin-right: 90px;
+    flex-direction: column;
+  }
+
+  .payment__address > p {
+    margin-left: 30px;
+    margin-top: 0px;
+  }
+
+  .payment__priceContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .payment__details {
+    display: flex;
+    flex: 1;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

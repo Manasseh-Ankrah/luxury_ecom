@@ -1,0 +1,53 @@
+.watchesHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watchesHome__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  /* background-color: #111; */
+}
+
+/* .image__cont {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  z-index: -1;
+} */
+
+.watchesHome__image {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+/* .accessoriesHome__image {
+  width: 100%;
+  height: 300px;
+} */
+
+.watchesHome__explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.0075em;
+  color: #222;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .watchesHome__image {
+    height: 130px;
+  }
+}

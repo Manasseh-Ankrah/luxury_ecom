@@ -1,0 +1,75 @@
+/* .login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  object-fit: contain;
+  background-image: url("../img/attire-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+} */
+
+.login__text_element {
+	padding-top: 0%;
+}
+
+.login__form {
+	margin-bottom: 0px;
+}
+
+.login__text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.22rem;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 500;
+	line-height: 1.4;
+	letter-spacing: 0.0075em;
+	color: white;
+	margin-bottom: 15px;
+}
+
+.login__header_text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.6rem;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 600;
+	line-height: 1.8;
+	letter-spacing: 0.0075em;
+	margin-bottom: 10px;
+	color: #fdd912;
+	text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+
+/* .login__image {
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0));
+    background: linear-gradient(rgba(46, 245, 212, 0.95), rgba(8, 247, 247, 0.95)), url(../img/coming-soon.jpg);
+} */
+
+@media screen and (max-width: 750px) {
+	.login__header_text {
+		font-size: 1.6rem;
+		font-weight: 600;
+		line-height: 1.5;
+		letter-spacing: 0.0075em;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.login__header_text {
+		font-size: 1.3rem;
+		font-weight: 500;
+		line-height: 1.5;
+		letter-spacing: 0.0075em;
+	}
+}

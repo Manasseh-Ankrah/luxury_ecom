@@ -1,0 +1,19 @@
+.product {
+  max-width: 300px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transition-delay: 10s;
+}
+
+.product:hover {
+  transform: scale(1.04);
+}
+
+@media screen and (max-width: 500px) {
+  .product {
+    max-width: 300px;
+    transition-delay: 10s;
+  }
+}
